@@ -15,215 +15,224 @@
   <link rel="stylesheet" href="https://use.typekit.net/drl5ptu.css">
 </head>
 
+
 <body class="overflow-x-hidden">
-  <header>
-    <nav class="navbar navbar-expand-lg bg-dark p-3">
+  <div id="bg-banner">
+    <header>
+      <nav class="navbar navbar-expand-lg p-3">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light fs-3" href="#" id="navitem">Portfolio Home</a>
+          <button class="navbar-toggler bg-white navbutton" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active fs-3 text-light" aria-current="page" href="#" id="navitem">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light fs-3" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false" id="navitem">
+                  Monthly Websites
+                </a>
+                <ul class="dropdown-menu bg-black text-white">
+                  <li><a class="dropdown-item text-white" href="#" id="navdrop">October</a></li>
+                  <li><a class="dropdown-item text-white" href="#" id="navdrop">November</a></li>
+                  <li><a class="dropdown-item text-white" href="#" id="navdrop">December</a></li>
+                  <li><a class="dropdown-item text-white" href="#" id="navdrop">January</a></li>
+                  <li><a class="dropdown-item text-white" href="#" id="navdrop">February</a></li>
+                  <li><a class="dropdown-item text-white" href="#" id="navdrop">March</a></li>
+                  <li><a class="dropdown-item text-white" href="#" id="navdrop">April</a></li>
+                  <li><a class="dropdown-item text-white" href="#" id="navdrop">May</a></li>
+                  <li><a class="dropdown-item text-white" href="#" id="navdrop">June</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
       <div class="container-fluid">
-        <a class="navbar-brand text-light fs-3" href="#">Portfolio Home</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active fs-3 text-light" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-light fs-3" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Monthly Websites
-              </a>
-              <ul class="dropdown-menu bg-dark text-light">
-                <li><a class="dropdown-item text-light" href="#">October</a></li>
-                <li><a class="dropdown-item text-light" href="#">November</a></li>
-                <li><a class="dropdown-item text-light" href="#">December</a></li>
-                <li><a class="dropdown-item text-light" href="#">January</a></li>
-                <li><a class="dropdown-item text-light" href="#">February</a></li>
-                <li><a class="dropdown-item text-light" href="#">March</a></li>
-                <li><a class="dropdown-item text-light" href="#">April</a></li>
-                <li><a class="dropdown-item text-light" href="#">May</a></li>
-                <li><a class="dropdown-item text-light" href="#">June</a></li>
-              </ul>
-            </li>
-          </ul>
+        <div class="row d-flex justify-content-center py-5 mb-3" id="topstuff">
+          <div class="col-6 text-center">
+            <p class="pt-3 text-light fs-1">Monthly Website Gallery</p>
+            <p class="text-light fs-4">
+              Honors Advanced Web Design
+              <br />
+              2024
+            </p>
+          </div>
         </div>
       </div>
-    </nav>
-  </header>
-  <main>
-  <div class="container-fluid" id="topstuff">
-    <div class="row d-flex justify-content-center bg-dark py-5 mb-3">
-      <div class="col-6 text-center">
-        <p class="pt-3 text-light fs-1">Monthly Website Gallery</p>
-        <p class="text-light fs-4">
-          Honors Advanced Web Design
-          <br />
-          2024
-        </p>
+  </div>
+  <!--first row of cards-->
+  <div class="row d-flex justify-content-center align-items-center my-3">
+    <!--Gallery Description Card ONLY On Small Screens-->
+    <div class="d-lg-none col-md-12">
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Gallery Description</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up
+            the bulk of the card's content.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--October Website Card-->
+    <div class="col-lg-2 col-md-6 col-sm-12 mt-3">
+      <div class="card text-center">
+        <img src="https://picsum.photos/300/150" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">October</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up
+            the bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-dark">Visit Website</a>
+        </div>
+      </div>
+    </div>
+    <!--November Website Card-->
+    <div class="col-lg-2 col-md-6 col-sm-12 mt-3">
+      <div class="card text-center">
+        <img src="https://picsum.photos/300/150" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">November</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up
+            the bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-dark">Visit Website</a>
+        </div>
+      </div>
+    </div>
+    <!--Gallery Description Card on Large screens-->
+    <div class="col-lg-2 d-none d-lg-block mt-3">
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Gallery Description</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up
+            the bulk of the card's content.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--December Website Card-->
+    <div class="col-lg-2 col-md-6 col-sm-12 mt-3">
+      <div class="card text-center">
+        <img src="https://picsum.photos/300/150" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">December</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up
+            the bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-dark">Visit Website</a>
+        </div>
+      </div>
+    </div>
+    <!--January Website Card-->
+    <div class="col-lg-2 col-md-6 col-sm-12 mt-3">
+      <div class="card text-center">
+        <img src="https://picsum.photos/300/150" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">January</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up
+            the bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-dark">Visit Website</a>
+        </div>
       </div>
     </div>
   </div>
-    <!--first row of cards-->
-    <div class="row d-flex justify-content-center align-items-center my-3">
-      <!--Gallery Description Card ONLY On Small Screens-->
-      <div class="d-lg-none col-md-12">
-        <div class="card text-center">
-          <div class="card-body">
-            <h5 class="card-title">Gallery Description</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up
-              the bulk of the card's content.
-            </p>
-          </div>
-        </div>
-      </div>
-      <!--October Website Card-->
-      <div class="col-lg-2 col-md-6 col-sm-12">
-        <div class="card text-center">
-          <img src="https://picsum.photos/300/150" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">October</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up
-              the bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-dark">Visit Website</a>
-          </div>
-        </div>
-      </div>
-      <!--November Website Card-->
-      <div class="col-lg-2 col-md-6 col-sm-12">
-        <div class="card text-center">
-          <img src="https://picsum.photos/300/150" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">November</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up
-              the bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-dark">Visit Website</a>
-          </div>
-        </div>
-      </div>
-      <!--Gallery Description Card on Large screens-->
-      <div class="col-lg-2 d-none d-lg-block">
-        <div class="card text-center">
-          <div class="card-body">
-            <h5 class="card-title">Gallery Description</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up
-              the bulk of the card's content.
-            </p>
-          </div>
-        </div>
-      </div>
-      <!--December Website Card-->
-      <div class="col-lg-2 col-md-6 col-sm-12">
-        <div class="card text-center">
-          <img src="https://picsum.photos/300/150" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">December</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up
-              the bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-dark">Visit Website</a>
-          </div>
-        </div>
-      </div>
-      <!--January Website Card-->
-      <div class="col-lg-2 col-md-6 col-sm-12">
-        <div class="card text-center">
-          <img src="https://picsum.photos/300/150" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">January</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up
-              the bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-dark">Visit Website</a>
-          </div>
+  <!--second row of cards-->
+  <div class="row d-flex justify-content-center align-items-center mb-3">
+    <!--February Website Card-->
+    <div class="col-lg-2 col-md-6 col-sm-12 mt-3">
+      <div class="card text-center">
+        <img src="https://picsum.photos/300/150" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">February</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up
+            the bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-dark">Visit Website</a>
         </div>
       </div>
     </div>
-    <!--second row of cards-->
-    <div class="row d-flex justify-content-center align-items-center mb-3">
-      <!--February Website Card-->
-      <div class="col-lg-2 col-md-6 col-sm-12">
-        <div class="card text-center">
-          <img src="https://picsum.photos/300/150" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">February</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up
-              the bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-dark">Visit Website</a>
-          </div>
-        </div>
-      </div>
-      <!--March Website Card-->
-      <div class="col-lg-2 col-md-6 col-sm-12">
-        <div class="card text-center">
-          <img src="https://picsum.photos/300/150" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">March</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up
-              the bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-dark">Visit Website</a>
-          </div>
-        </div>
-      </div>
-      <!--April Website Card-->
-      <div class="col-lg-2 col-md-6 col-sm-12">
-        <div class="card text-center">
-          <img src="https://picsum.photos/300/150" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">April</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up
-              the bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-dark">Visit Website</a>
-          </div>
-        </div>
-      </div>
-      <!--May Website Card-->
-      <div class="col-lg-2 col-md-6 col-sm-12">
-        <div class="card text-center">
-          <img src="https://picsum.photos/300/150" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">May</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up
-              the bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-dark">Visit Website</a>
-          </div>
-        </div>
-      </div>
-      <!--June Website Card-->
-      <div class="col-lg-2 col-md-6 col-sm-12">
-        <div class="card text-center">
-          <img src="https://picsum.photos/300/150" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">June</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up
-              the bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-dark">Visit Website</a>
-          </div>
+    <!--March Website Card-->
+    <div class="col-lg-2 col-md-6 col-sm-12 mt-3">
+      <div class="card text-center">
+        <img src="https://picsum.photos/300/150" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">March</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up
+            the bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-dark">Visit Website</a>
         </div>
       </div>
     </div>
+    <!--April Website Card-->
+    <div class="col-lg-2 col-md-6 col-sm-12 mt-3">
+      <div class="card text-center">
+        <img src="https://picsum.photos/300/150" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">April</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up
+            the bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-dark">Visit Website</a>
+        </div>
+      </div>
+    </div>
+    <!--May Website Card-->
+    <div class="col-lg-2 col-md-6 col-sm-12 mt-3">
+      <div class="card text-center">
+        <img src="https://picsum.photos/300/150" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">May</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up
+            the bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-dark">Visit Website</a>
+        </div>
+      </div>
+    </div>
+    <!--June Website Card-->
+    <div class="col-lg-2 col-md-6 col-sm-12 mt-3">
+      <div class="card text-center">
+        <img src="https://picsum.photos/300/150" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">June</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up
+            the bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-dark">Visit Website</a>
+        </div>
+      </div>
+    </div>
+  </div>
   </main>
-  <footer>
-    <!--footer-->
-  </footer>
+  <!--footer-->
+  <div class="row d-flex align-items-center justify-content-center">
+  <div class="col-12">
+    <footer>
+      ©2024 James (Better than Hank) Corp
+    </footer>
+  </div>
+  </div>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
